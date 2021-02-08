@@ -1,0 +1,53 @@
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #8AC542;
+  padding: 16px 16px;
+  font-weight: bold;
+}
+
+.header a {
+  color: white;
+}
+
+.header a.loginBtn {
+  background-color: #f1f5f7;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 12px;
+  padding: 12px 16px;
+  color: #8AC542;
+}
+
+.header_logos {
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_logos img {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin: 12px 8px 0;
+}
+
+.header_pageTitle {
+  color: white;
+  line-height: 40px;
+  font-size: 22px;
+}
+
+.header_avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
