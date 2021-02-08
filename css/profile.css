@@ -1,0 +1,78 @@
+.profilePage {
+  margin-top: 24px;
+}
+
+.profilePage_user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profilePage_user_image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profilePage_user_image img {
+  width: 56px;
+  height: 56px;
+}
+
+.profilePage_user_basicInfo {
+  margin-left: 16px;
+}
+
+.profilePage_user_actionButton {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #8AC542;
+  font-weight: bold;
+  padding: 0px 8px;
+}
+
+.profilePage_user_actionButton a {
+  color: #8AC542;
+}
+
+.profilePage_user_name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.profilePage_user_displayName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.profilePage_user_introduction {
+  font-size: 12px;
+}
