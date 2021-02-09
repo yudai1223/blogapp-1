@@ -1,6 +1,6 @@
 {
-    "name": "blog app",
-    "description": "This is blogapp",
+    "name": "blogapp-1",
+    "description": "This is blogapp-1",
     "keywords": [],
     "website": "",
     "repository": "https://github.com/yudai1223/blogapp-1",
@@ -12,5 +12,6 @@
       "url": "heroku/nodejs"
     }, {
       "url": "heroku/ruby"
-    }]
+    }],
+    "stack": "heroku-18"
   }
