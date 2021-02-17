@@ -1,4 +1,4 @@
-class CommentsController < ApplicationController
+class Api::CommentsController < Api::ApplicationController
   
   def index
     article = Article.find(params[:article_id])
@@ -6,10 +6,10 @@ class CommentsController < ApplicationController
     render json: comments
   end
   
-  def new
-        article =  Article.find(params[:article_id])
-        @comment = article.comments.build
-    end
+  # def new
+  #       article =  Article.find(params[:article_id])
+  #       @comment = article.comments.build
+  #   end
     def create
         article = Article.find(params[:article_id])
       @comment= article.comments.build(comment_params)
