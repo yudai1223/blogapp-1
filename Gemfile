@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+source 'http://rubygems.org'
+
 ruby '2.6.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -32,7 +34,7 @@ gem 'faker'
 gem 'hamlit'
 gem 'aws-sdk-s3', require: false
 gem 'sidekiq'
-
+gem 'nokogiri', '~> 1.11', '>= 1.11.2'
 # Use Active Storage variant
  gem 'image_processing', '~> 1.2'
 
