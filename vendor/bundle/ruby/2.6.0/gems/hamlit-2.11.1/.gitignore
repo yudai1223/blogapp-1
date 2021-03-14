@@ -1,0 +1,17 @@
+/.bundle/
+/.yardoc
+/Gemfile.lock
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+.sass-cache
+.ruby-version
+*.bundle
+*.so
+*.su
+*.o
+*.a
+*.swp

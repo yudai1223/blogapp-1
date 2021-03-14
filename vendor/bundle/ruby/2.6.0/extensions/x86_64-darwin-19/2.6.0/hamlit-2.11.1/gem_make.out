@@ -1,0 +1,25 @@
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.1/ext/hamlit
+/Users/ty/.rbenv/versions/2.6.5/bin/ruby -I /Users/ty/.rbenv/versions/2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210313-20275-1s739hx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.1/ext/hamlit
+make DESTDIR\= clean
+
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.1/ext/hamlit
+make DESTDIR\=
+compiling hamlit.c
+In file included from hamlit.c:1:
+In file included from /Users/ty/.rbenv/versions/2.6.5/include/ruby-2.6.0/ruby.h:33:
+/Users/ty/.rbenv/versions/2.6.5/include/ruby-2.6.0/ruby/ruby.h:2186:35: warning: unused parameter 'allow_transient' [-Wunused-parameter]
+rb_array_ptr_use_end(VALUE a, int allow_transient)
+                                  ^
+hamlit.c:67:10: warning: implicit conversion loses integer precision: 'size_t' (aka 'unsigned long') to 'unsigned int' [-Wshorten-64-to-32]
+  size = hesc_escape_html(&buf, RSTRING_PTR(str), RSTRING_LEN(str));
+       ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+compiling hescape.c
+linking shared-object hamlit/hamlit.bundle
+
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/hamlit-2.11.1/ext/hamlit
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 hamlit.bundle ./.gem.20210313-20275-1tv9ean/hamlit
