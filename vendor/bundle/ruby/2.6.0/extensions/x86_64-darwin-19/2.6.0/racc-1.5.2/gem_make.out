@@ -1,40 +1,16 @@
 current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
-/Users/ty/.rbenv/versions/2.6.5/bin/ruby -I /Users/ty/.rbenv/versions/2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210312-15070-biq9cz.rb extconf.rb
-checking for rb_ary_subseq()... *** extconf.rb failed ***
-Could not create Makefile due to some reason, probably lack of necessary
-libraries and/or headers.  Check the mkmf.log file for more details.  You may
-need configuration options.
+/Users/ty/.rbenv/versions/2.6.5/bin/ruby -I /Users/ty/.rbenv/versions/2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20210314-4952-1heczhh.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
 
-Provided configuration options:
-	--with-opt-dir
-	--without-opt-dir
-	--with-opt-include
-	--without-opt-include=${opt-dir}/include
-	--with-opt-lib
-	--without-opt-lib=${opt-dir}/lib
-	--with-make-prog
-	--without-make-prog
-	--srcdir=.
-	--curdir
-	--ruby=/Users/ty/.rbenv/versions/2.6.5/bin/$(RUBY_BASE_NAME)
-/Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:467:in `try_do': The compiler failed to generate an executable file. (RuntimeError)
-You have to install development tools first.
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:552:in `try_link0'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:570:in `try_link'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:782:in `try_func'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:1069:in `block in have_func'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:959:in `block in checking_for'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:361:in `block (2 levels) in postpone'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:361:in `block in postpone'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:331:in `open'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:357:in `postpone'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:958:in `checking_for'
-	from /Users/ty/.rbenv/versions/2.6.5/lib/ruby/2.6.0/mkmf.rb:1068:in `have_func'
-	from extconf.rb:6:in `<main>'
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= clean
 
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.bundle
 
-  /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/extensions/x86_64-darwin-19/2.6.0/racc-1.5.2/mkmf.log
-
-extconf failed, exit code 1
+current directory: /Users/ty/blogapp-1/vendor/bundle/ruby/2.6.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20210314-4952-1lhkzae/racc
